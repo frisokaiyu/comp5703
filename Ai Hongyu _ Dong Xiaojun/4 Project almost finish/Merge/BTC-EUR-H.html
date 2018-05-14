@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie9"><![endif]-->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <meta name="format-detection" content="telephone=no">
+        <meta charset="UTF-8">
+
+        <meta name="description" content="Violate Responsive Admin Template">
+        <meta name="keywords" content="Super Admin, Admin, Template, Bootstrap">
+
+        <title>Cryptocurrency Exchange</title>
+        <!-- CSS -->
+          <link href="css/bootstrap.min.css" rel="stylesheet">
+          <link href="css/animate.min.css" rel="stylesheet">
+          <link href="css/font-awesome.min.css" rel="stylesheet">
+          <link href="css/form.css" rel="stylesheet">
+          <link href="css/calendar.css" rel="stylesheet">
+          <link href="css/style.css" rel="stylesheet">
+          <link href="css/icons.css" rel="stylesheet">
+          <link href="css/generics.css" rel="stylesheet">
+
+          <!-- Javascript Libraries -->
+          <!-- jQuery -->
+          <script src="js/jquery.min.js"></script> <!-- jQuery Library -->
+          <script src="js/jquery-ui.min.js"></script> <!-- jQuery UI -->
+
+          <!-- Charts -->
+          <script src="js/charts/jquery.flot.js"></script> <!-- Flot Main -->
+
+          <!--New Charts-->
+          <!--<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>-->
+          <script src="js/charts/AM.js"></script>
+          <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+          <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+          <script src="https://www.amcharts.com/lib/3/plugins/dataloader/dataloader.min.js"></script>
+          <script src="https://www.amcharts.com/lib/3/amstock.js"></script>
+          <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+          <script src="https://www.amcharts.com/lib/3/themes/dark.js"></script>
+          <script src="js/charts/historyChart-BE.js"></script>
+
+
+          <!-- All JS functions -->
+          <script src="js/functions.js"></script>
+    </head>
+    <body id="skin-blur-night">
+
+        <header id="header" class="media">
+            <a href="" id="menu-toggle"></a>
+            <a class="logo pull-left" href="index.html">Version 4.0</a>
+            <div class="media-body">
+              <div class="media" id="top-menu">
+              <div id="time" class="pull-left">
+                  <span id="hours"></span>
+                  :
+                  <span id="min"></span>
+                  :
+                  <span id="sec"></span>
+              </div>
+            </div>
+            </div>
+        </header>
+
+        <div class="clearfix"></div>
+
+        <section id="main" class="p-relative" role="main">
+
+            <!-- Sidebar -->
+            <aside id="sidebar">
+              <!-- Sidbar Widgets -->
+              <div class="side-widgets overflow">
+                <!-- Projects -->
+                <div class="s-widget m-b-25">
+                    <h2 class="tile-title">
+                        Brief Information
+                    </h2>
+
+                    <div class="listview narrow">
+
+                      <div class="media">
+                          <div class="pull-right">
+                              <div class="counts">$4333.20</div>
+                          </div>
+                          <div class="media-body">
+                              <h6>BTC/USD</h6>
+                          </div>
+                      </div>
+
+                      <div class="media">
+                          <div class="pull-right">
+                              <div class="counts">€3656.92</div>
+                          </div>
+                          <div class="media-body">
+                              <h6>BTC/EUR</h6>
+                          </div>
+                      </div>
+
+                      <div class="media">
+                          <div class="pull-right">
+                              <div class="counts">£3311.52</div>
+                          </div>
+                          <div class="media-body">
+                              <h6>BTC/GBP</h6>
+                          </div>
+                      </div>
+
+                      <div class="media">
+                          <div class="pull-right">
+                              <div class="counts">$313.02</div>
+                          </div>
+                          <div class="media-body">
+                              <h6>ETH/USD</h6>
+                          </div>
+                      </div>
+                      <div class="media">
+                          <div class="pull-right">
+                              <div class="counts">€262.11</div>
+                          </div>
+                          <div class="media-body">
+                              <h6>ETH/EUR</h6>
+                          </div>
+                      </div>
+                      <div class="media">
+                          <div class="pull-right">
+                              <div class="counts">Ƀ0.0722</div>
+                          </div>
+                          <div class="media-body">
+                              <h6>ETH/BTC</h6>
+                          </div>
+                      </div>
+                      <div class="media">
+                          <div class="pull-right">
+                              <div class="counts">$71.26</div>
+                          </div>
+                          <div class="media-body">
+                              <h6>LTC/USD</h6>
+                          </div>
+                      </div>
+                      <div class="media">
+                          <div class="pull-right">
+                              <div class="counts">€59.75</div>
+                          </div>
+                          <div class="media-body">
+                              <h6>LTC/EUR</h6>
+                          </div>
+                      </div>
+                      <div class="media">
+                          <div class="pull-right">
+                              <div class="counts">Ƀ0.0164</div>
+                          </div>
+                          <div class="media-body">
+                              <h6>LTC/BTC</h6>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+              <!-- Side Menu -->
+              <ul class="list-unstyled side-menu">
+                  <li class="active">
+                      <a class="sa-side-home" href="index.html">
+                          <span class="menu-item">Dashboard</span>
+                      </a>
+                  </li>
+                  <li>
+                    <a class="shortcut tile" href="realtime.html">
+                        <img src="img/shortcuts/money.png" alt="">
+                        <span class="menu-item">Realtime</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="shortcut tile" href="history.html">
+                        <img src="img/shortcuts/calendar.png" alt="">
+                        <span class="menu-item">Trade History</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="shortcut tile" href="comparison.html">
+                        <img src="img/shortcuts/stats.png" alt="">
+                          <span class="menu-item">Comparison</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="shortcut tile" href="map.html">
+                        <img src="img/shortcuts/map.png" alt="">
+                        <span class="menu-item">World Map</span>
+                    </a>
+                  </li>
+                  <li>
+                      <a class="sa-side-typography" href="latest.html">
+                          <span class="menu-item">Latest News</span>
+                      </a>
+                  </li>
+
+              </ul>
+            </aside>
+
+            <!-- Content -->
+            <section id="content" class="container">
+
+                <!-- Breadcrumb -->
+                <h4 class="page-title">Trade History</h4>
+
+                <!-- Shortcuts -->
+                <div class="block-area shortcut-area">
+                  <a class="shortcut tile" href="history.html">
+                      <img src="img/shortcuts/calendar.png" alt="">
+                      <small class="t-overflow">BTC-USD</small>
+                  </a>
+                  <a class="shortcut tile" href="BTC-EUR-H.html">
+                      <img src="img/shortcuts/calendar.png" alt="">
+                      <small class="t-overflow">BTC-EUR</small>
+                  </a>
+                  <a class="shortcut tile" href="BTC-GBP-H.html">
+                      <img src="img/shortcuts/calendar.png" alt="">
+                      <small class="t-overflow">BTC-GBP</small>
+                  </a>
+                  <a class="shortcut tile" href="ETH-USD-H.html">
+                      <img src="img/shortcuts/calendar.png" alt="">
+                      <small class="t-overflow">ETH-USD</small>
+                  </a>
+                  <a class="shortcut tile" href="ETH-EUR-H.html">
+                      <img src="img/shortcuts/calendar.png" alt="">
+                      <small class="t-overflow">ETH-EUR</small>
+                  </a>
+                  <a class="shortcut tile" href="ETH-BTC-H.html">
+                      <img src="img/shortcuts/calendar.png" alt="">
+                      <small class="t-overflow">ETH-BTC</small>
+                  </a>
+                  <a class="shortcut tile" href="LTC-USD-H.html">
+                      <img src="img/shortcuts/calendar.png" alt="">
+                      <small class="t-overflow">LTC-USD</small>
+                  </a>
+                  <a class="shortcut tile" href="LTC-EUR-H.html">
+                      <img src="img/shortcuts/calendar.png" alt="">
+                      <small class="t-overflow">LTC-EUR</small>
+                  </a>
+                  <a class="shortcut tile" href="LTC-BTC-H.html">
+                      <img src="img/shortcuts/calendar.png" alt="">
+                      <small class="t-overflow">LTC-BTC</small>
+                  </a>
+                </div>
+
+                <hr class="whiter" />
+                <!-- Main Widgets -->
+
+                <div class="block-area">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- Main Chart -->
+                            <div class="tile">
+                                <h2 class="tile-title">History Candel of BTC-EUR</h2>
+                                <div class="p-10">
+                                    <div id= "line-chart" style="height: 500px"></div>
+                                </div>
+                            </div>
+
+    </body>
+</html>
